@@ -1,0 +1,17 @@
+body {
+  background: tomato;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.elemento{
+   border-left: 1px solid #ccc;
+   border-top: 1px solid #ccc;
+   border-bottom: 1px solid #666;
+   border-right: 1px solid #666;
+}
+
+.boxshadow.elemento{
+   border: 1px solid #ccc;
+   box-shadow: 10px 10px 5px #888888;
+}
