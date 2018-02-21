@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Testing BrowserSync</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/js/lib/vendor/modernizr-custom.js"></script>
+</head>
+<body>
+    <header class="boxshadow elemento">
+        <a href="/"><img src=logo.png alt="home"></a>
+        <hgroup>
+            <h1>Title</h1>
+            <h2 class="tagline">
+                A lot of effort went into making this effortless.
+            </h2>
+            <input type="search" name="q" accesskey="s 0" autofocus placeholder="Search" required="Not null">
+            <input id="form-person-title" type="text" list="mylist" autocomplete="Hi">
+            <datalist id="mylist">
+                <option label="Mr" value="Mr">
+                <option label="Ms" value="Ms">
+                <option label="Prof" value="Mad Professor">
+            </datalist
+            <input type="date" min="2010-01-01" max="2010-12-31">
+            <input type="range" mix="0" max="100" step="5">
+            <input pattern="[0-9][A-Z]{3}" name="part" title="A part number is a digit followed by three uppercase letters.">
+            <progress value="7" max="20">7</progress>
+            <p>Your score is:
+                <meter value="91" min="0" max="100"
+                        low="40" high="90" optimum="100">A+</meter>
+            </p>
+        </hgroup>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">gallery</a></li>
+            <li><a href="#">about</a></li>
+        </ul>
+    </nav>
+    <section class="articles">
+        <article>
+            <time datetime="2009-10-22">October 22, 2009</time>
+            <h2>
+                <a href="#" title="link to this post">Travel day</a>
+            </h2>
+            <div class="content">
+                Content goes here...
+                <input type="file" multiple="multiple">
+            </div>
+            <section class="comments">
+                <p><a href="#">3 comments</a></p>
+            </section>
+        </article>
+        <article>
+          <figure>
+            <img src="Welcome.jpg" alt="Alternative text">
+            <figcaption>
+                Bruce and Remy welcome questions
+                <small>Photo &copy; Bruce’s mum</small>
+            </figcaption>
+          </figure>
+          <h1>Hello world.</h1>
+          <h3>Fernando Espino</h3>
+          <p id="render">I'm testing BrowserSync and what it can do.</p>
+          <button id="btn">Fill Paragrap</button>
+          <object width="425" height="344">
+              <param name="movie"
+                  value="http://www.youtube.com/v/9sEI1AUFJKw&hl=en_GB&fs=1&"></param>
+              <param name="allowFullScreen" value="true"></param>
+              <param name="allowscriptaccess" value="always"></param>
+              <embed src="http://www.youtube.com/v/9sEI1AUFJKw&hl=en_GB&fs=1&"
+                  type="application/x-shockwave-flash"
+                  allowscriptaccess="always"
+                  allowfullscreen="true" width="425" height="344"></embed>
+          </object>
+          <canvas id="canvas" width="150" height="150"></canvas>
+        </article>
+    </section>
+    <aside>
+        <div class="related"></div>
+        <div class="related"></div>
+        <div class="related"></div>
+        <ul id="vegetable-seeds">
+          <li data-spacing="10cm" data-sowing-time="March to June">Carrots</li>
+          <li data-spacing="30cm" data-sowing-time="February to March">Celery</li>
+          <li data-spacing="3cm" data-sowing-time="March to September">Radishes</li>
+        </ul>
+    </aside>
+    <footer>
+        <p>&#167;</p>
+        <p>&#169; 2013&#8211;9 <a href="#">Arkaitz Garro</a></p>
+    </footer>
+    <script src="/js/lib/vendor/script.js"></script>
+</body>
+</html>
